@@ -28,6 +28,22 @@ Place model files in:
 - `python-service/models/transformer_model.pt`
 - `python-service/models/rf_model_stratified.pkl`
 
+> NOTE: Due to its size (~1GB), the Random Forest model is hosted externally.
+
+Download it from:
+
+https://huggingface.co/anubhav-m/context-aware-risk-prediction-system-random-forest/tree/main
+
+After downloading:
+
+- Place the file inside:
+  
+  ```
+  ./python-service/models/
+  ```
+  
+- Do NOT rename the file
+
 API:
 - `POST /predict`
 - `GET /health`
