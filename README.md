@@ -75,7 +75,7 @@ Open `http://localhost:5173`
 
 ## Features Implemented
 
-- Real-time simulator every 1 second
+- Real-time simulator every 5 second
 - Auto mode (drift-based) and manual mode (sliders/toggle)
 - Zustand store:
   - `data`
